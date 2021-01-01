@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="ProjectId" id="1hDgSr1F1RJny1mkPIIchZEczei" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="" />
+      <created>1599551081865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599551081865</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Fixing of a bug in venv after renaming the project">
+      <created>1599551770252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599551770252</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Setting of the functional test (sign up)">
+      <created>1599637784639</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599637784639</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Settings update to enable static files on heroku">
+      <created>1599735334034</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599735334034</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updating settings.py">
+      <created>1599737815216</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599737815216</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updating Procfile">
+      <created>1599738092041</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599738092041</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Correcting a error in Procfile">
+      <created>1599738506298</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599738506298</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixing of an error 500 when running functional_test">
+      <created>1599741091834</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599741091834</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updating tests (100% coverage)">
+      <created>1599741862196</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599741862196</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update of the page mentions_legales.html">
+      <created>1599748988412</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599748988412</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Initial commit">
+      <created>1609423812655</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609423812655</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixing of a bug in venv after renaming the project" />
+    <MESSAGE value="Setting of the functional test (sign up)" />
+    <MESSAGE value="Settings update to enable static files on heroku" />
+    <MESSAGE value="Updating settings.py" />
+    <MESSAGE value="Updating Procfile" />
+    <MESSAGE value="Correcting a error in Procfile" />
+    <MESSAGE value="Fixing of an error 500 when running functional_test" />
+    <MESSAGE value="Updating tests (100% coverage)" />
+    <MESSAGE value="Update of the page mentions_legales.html" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="758" y="229" width="393" height="582" key="RollbackChangesDialog" timestamp="1609424894533">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="758" y="229" width="393" height="582" key="RollbackChangesDialog/0.0.1920.1048@0.0.1920.1048" timestamp="1609424894533" />
+    <state x="464" y="158" key="SettingsEditor" timestamp="1609423367358">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="464" y="158" key="SettingsEditor/0.0.1920.1048@0.0.1920.1048" timestamp="1609423367358" />
+    <state x="555" y="259" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1609426342850">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="555" y="259" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1609426342850" />
+  </component>
+</project>
