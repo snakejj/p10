@@ -1,4 +1,4 @@
-from .settings import *
+from purbeurre.settings import *
 
 DATABASES = {
     'default': {
