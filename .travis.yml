@@ -4,6 +4,8 @@ python:
 
 before_script:
   - pip install -r requirements.txt
+  - psql -c 'create database travis_ci_test;' -U postgres
+
 
 env: DJANGO_SETTINGS_MODULE="purbeurre.settings.travis"
 
