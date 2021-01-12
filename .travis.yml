@@ -8,7 +8,7 @@ before_script:
 env: DJANGO_SETTINGS_MODULE="purbeurre.settings"
 
 script:
-  - manage.py test
+  -python3 manage.py test
 
 # safelist
 branches:
