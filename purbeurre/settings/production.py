@@ -19,7 +19,7 @@ sentry_sdk.init(
 SECRET_KEY = os.getenv("SECRET_KEY")
 DEBUG = os.getenv("DEBUG_PROD")
 
-ALLOWED_HOSTS = ['159.65.89.33','localhost']
+ALLOWED_HOSTS = ['159.65.89.33','127.0.0.1', 'localhost']
 
 EMAIL_HOST = os.getenv("EMAIL_HOST")
 EMAIL_HOST_USER = os.getenv("EMAIL_HOST_USER")
