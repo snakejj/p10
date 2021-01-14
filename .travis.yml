@@ -10,6 +10,8 @@ before_script:
 env: DJANGO_SETTINGS_MODULE="purbeurre.settings.travis"
 
 script:
+  - python manage.py makemigrations
+  - python manage.py migrate
   - pytest -vvv
 
 # safelist
