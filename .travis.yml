@@ -1,7 +1,8 @@
 language: python
 python:
   - '3.8.5'
-
+services:
+  - postgresql
 before_script:
   - pip install -r requirements.txt
   - psql -c 'create database travis_ci_test;' -U postgres
