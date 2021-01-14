@@ -32,7 +32,7 @@ class Command(BaseCommand):
             data = {
                 "action": "process",
                 "json": 1,
-                "page_size": 100,
+                "page_size": 250,
                 "tagtype_0": "categories",
                 "tag_contains_0": "contains",
                 "tag_0": categ,
