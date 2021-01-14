@@ -26,19 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/core_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_views_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/favorites_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/favorites_views_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/openfoodfacts_management_commands_initdb_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/openfoodfacts_management_commands_initdb_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/products_models_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/products_models_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/products_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/products_views_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/search_forms_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_forms_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/search_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_views_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/status.json" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/status.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/users_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_views_py.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610632796005</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Adding functionnal tests to travis">
+      <created>1610635122310</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1610635122310</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -341,7 +336,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Correcting a error in Procfile" />
     <MESSAGE value="Fixing of an error 500 when running functional_test" />
     <MESSAGE value="Updating tests (100% coverage)" />
     <MESSAGE value="Update of the page mentions_legales.html" />
@@ -366,7 +360,8 @@
     <MESSAGE value="Adding migrate script to Travis" />
     <MESSAGE value="Removing migrate script to Travis" />
     <MESSAGE value="Adding elasticsearch to the travis services" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding elasticsearch to the travis services" />
+    <MESSAGE value="Adding functionnal tests to travis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding functionnal tests to travis" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="99" width="1720" height="848" key="DiffContextDialog" timestamp="1610555176087">
@@ -389,9 +384,9 @@
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="464" y="158" key="SettingsEditor/0.0.1920.1048@0.0.1920.1048" timestamp="1609423367358" />
-    <state x="396" y="463" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1610632797309">
+    <state x="396" y="463" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1610635123772">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="396" y="463" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1610632797309" />
+    <state x="396" y="463" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1610635123772" />
   </component>
 </project>
