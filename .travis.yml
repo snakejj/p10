@@ -3,6 +3,7 @@ python:
   - '3.8.5'
 services:
   - postgresql
+  - elasticsearch
 before_script:
   - pip install -r requirements.txt
 
