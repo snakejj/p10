@@ -3,16 +3,23 @@ python:
   - '3.8.5'
 services:
   - postgresql
-  - elasticsearch
+
+addons:
+  firefox: latest
+  apt:
+    packages:
+      firefox-geckodriver
+
 before_script:
   - pip install -r requirements.txt
 
 
 env:
-  DJANGO_SETTINGS_MODULE="purbeurre.settings.travis"
-
+  - DJANGO_SETTINGS_MODULE="purbeurre.settings.travis"
+  - MOZ_HEADLESS=1
 script:
-  - pytest -vvv
+  - pytest functional_tests/functional_tests
+  - pytest -v
 
 # safelist
 branches:

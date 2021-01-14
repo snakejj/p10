@@ -677,3 +677,14 @@ console.error: "Could not load engine startpage-gb@search.mozilla.org: Error: Fi
 1610472037361	Marionette	INFO	Listening on port 41921
 1610472037501	Marionette	WARN	TLS certificate errors will be ignored for this session
 1610472047450	Marionette	INFO	Stopped listening on port 41921
+1610633875743	geckodriver	INFO	Listening on 127.0.0.1:52079
+1610633876750	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenBm9PV"
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is GB
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+console.error: "Could not load engine startpage-gb@search.mozilla.org: Error: File resource://search-extensions/startpage-gb/ does not contain a valid manifest"
+1610633879816	Marionette	INFO	Listening on port 33479
+1610633879903	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610633886027	Marionette	INFO	Stopped listening on port 33479
