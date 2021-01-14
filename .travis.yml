@@ -11,9 +11,7 @@ env:
   DJANGO_SETTINGS_MODULE="purbeurre.settings.travis"
 
 script:
-  - pytest -v
-  - python3 manage.py migrate
-  - pytest
+  - pytest -vvv
 
 # safelist
 branches:
