@@ -16,7 +16,7 @@ before_script:
 
 env: DJANGO_SETTINGS_MODULE="purbeurre.settings.travis"
 script:
-  - pytest functional_tests/functional_tests
+  - pytest functional_tests/functional_tests.py
   - pytest -v
 
 # safelist
