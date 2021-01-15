@@ -25,11 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -381,7 +377,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610704299657</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Modifiying test_if_view_favorites_is_displaying_when_logged_in_with_no_favorites_yet_for_this_user">
+      <created>1610704761936</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1610704761936</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Modifiying test_if_view_favorites_is_displaying_previous_favorites_when_logged_in">
+      <created>1610704927284</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1610704927284</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -409,8 +419,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding before script instruction in travis.yml" />
-    <MESSAGE value="Adding postgresql_psycopg2 to the travis file" />
     <MESSAGE value="Adding verbose option to pytest" />
     <MESSAGE value="Adding '127.0.0.1' to the allowed hosts" />
     <MESSAGE value="Adding 'postgresql' as a service" />
@@ -434,7 +442,9 @@
     <MESSAGE value="Modifiying executable_path" />
     <MESSAGE value="Modifiying functional_tests.py" />
     <MESSAGE value="Modifiying test_views.py of favorites" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifiying test_views.py of favorites" />
+    <MESSAGE value="Modifiying test_if_view_favorites_is_displaying_when_logged_in_with_no_favorites_yet_for_this_user" />
+    <MESSAGE value="Modifiying test_if_view_favorites_is_displaying_previous_favorites_when_logged_in" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifiying test_if_view_favorites_is_displaying_previous_favorites_when_logged_in" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="99" width="1720" height="848" key="DiffContextDialog" timestamp="1610555176087">
@@ -457,9 +467,9 @@
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="464" y="158" key="SettingsEditor/0.0.1920.1048@0.0.1920.1048" timestamp="1609423367358" />
-    <state x="396" y="463" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1610704300994">
+    <state x="396" y="463" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1610704929453">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="396" y="463" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1610704300994" />
+    <state x="396" y="463" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1610704929453" />
   </component>
 </project>
