@@ -15,7 +15,7 @@ class FunctionalTests(StaticLiveServerTestCase):
     def setUp(self):
         cap = DesiredCapabilities().FIREFOX
         cap["marionette"] = True
-        self.browser = webdriver.Firefox(capabilities=cap, executable_path='/usr/local/bin/geckodriver/geckodriver')
+        self.browser = webdriver.Firefox(capabilities=cap, executable_path='webdrivers/geckodriver/geckodriver')
 
     def tearDown(self):
         pass
