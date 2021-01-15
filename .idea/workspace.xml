@@ -26,8 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functional_tests/functional_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_tests/functional_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional_tests/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/webdrivers/geckodriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +67,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webdrivers" />
       <recent name="$PROJECT_DIR$/purbeurre/settings" />
     </key>
   </component>
@@ -351,7 +356,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610697064260</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="adding ls command">
+      <created>1610697260918</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1610697260918</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Modifiying executable_path">
+      <created>1610697782296</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1610697782296</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -379,8 +398,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding ENV Variables,fixing BASE_DIR and fixing initdb" />
-    <MESSAGE value="Fixing travis.yml" />
     <MESSAGE value="Adding travis.py" />
     <MESSAGE value="Fixing Allowed host var" />
     <MESSAGE value="Adding before script instruction in travis.yml" />
@@ -404,7 +421,9 @@
     <MESSAGE value="Adding tchappui-webdrivers to travis" />
     <MESSAGE value="Modifying path for install-webdrivers to travis" />
     <MESSAGE value="Modifying path for geckodriver" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifying path for geckodriver" />
+    <MESSAGE value="adding ls command" />
+    <MESSAGE value="Modifiying executable_path" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifiying executable_path" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="99" width="1720" height="848" key="DiffContextDialog" timestamp="1610555176087">
@@ -427,9 +446,9 @@
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="464" y="158" key="SettingsEditor/0.0.1920.1048@0.0.1920.1048" timestamp="1609423367358" />
-    <state x="396" y="463" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1610697065593">
+    <state x="396" y="463" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1610697783569">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="396" y="463" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1610697065593" />
+    <state x="396" y="463" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1610697783569" />
   </component>
 </project>
