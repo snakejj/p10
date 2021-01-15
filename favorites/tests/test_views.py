@@ -24,7 +24,6 @@ class TestFavoritesView:
 
     def test_if_view_favorites_is_displaying_when_logged_in_with_no_favorites_yet_for_this_user(self):
         user = mixer.blend('auth.User', id=2)
-        mixer.blend('favorites.Favorites', user_id=3)
         req = RequestFactory().get('/')
         req.user = user
 
@@ -37,8 +36,8 @@ class TestFavoritesView:
             ' a text saying there are no substitutes yet'
 
     def test_if_view_favorites_is_displaying_previous_favorites_when_logged_in(self):
-        user = mixer.blend('auth.User', id=2)
-        mixer.blend('favorites.Favorites', user_id=2)
+        user = mixer.blend('auth.User', id=4)
+        mixer.blend('favorites.Favorites', user_id=4)
         req = RequestFactory().get('/')
         req.user = user
 
@@ -75,7 +74,7 @@ class TestFavoritesView:
             product_id=objproduct_initial.code,
             substitute_id=objproduct_substitute.code)
 
-        user = mixer.blend('auth.User', user_id=2)
+        user = mixer.blend('auth.User', id=2)
         post = {
             "user_id": user.id,
             "product": objproduct_initial.code,

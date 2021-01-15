@@ -10,6 +10,7 @@ class TestSearchView:
     def test_if_view_search_results_is_displaying_results_when_search_find_a_result(self):
         mixer.blend('products.Product', product_name="Nutella", nutrition_grade_fr="e", category_id=2)
         mixer.blend('products.Product', product_name="Nuts", nutrition_grade_fr="d", category_id=2)
+        mixer.blend('products.Category', id=2)
         get = {"product_searched": "nute"}
         req = RequestFactory().get('/', data=get)
         resp = views.search_results(req)

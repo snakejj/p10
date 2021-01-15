@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from products.models import Product
 import random
+import logging
 
 
 def search_results(request):
@@ -9,6 +10,12 @@ def search_results(request):
     surrogates_clean = []
     try:
         if request.GET:
+            logger = logging.getLogger(__name__)
+            logger.info('New search', exc_info=True, extra={
+                    # Optionally pass a request and we'll grab any information we can
+                    'request': request,
+            })
+
             product_searched = request.GET.get("product_searched")
             first_result = Product.objects.filter(product_name__icontains=product_searched)[0]
             surrogate_search = True
