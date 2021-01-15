@@ -24,7 +24,6 @@ class TestFavoritesView:
 
     def test_if_view_favorites_is_displaying_when_logged_in_with_no_favorites_yet_for_this_user(self):
         user = mixer.blend('auth.User', id=2)
-        mixer.blend('favorites.Favorites', user_id=3)
         req = RequestFactory().get('/')
         req.user = user
 
