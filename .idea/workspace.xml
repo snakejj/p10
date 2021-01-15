@@ -20,12 +20,14 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:staging" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="" />
+    <list default="true" id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -398,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610705212508</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Modifying product category id in test_if_view_search_results_is_displaying_results_when_search_find_a_result">
+      <created>1610705448179</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1610705448179</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -412,7 +421,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="staging" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -426,7 +435,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding '127.0.0.1' to the allowed hosts" />
     <MESSAGE value="Adding 'postgresql' as a service" />
     <MESSAGE value="Removing '- psql -c 'create database travis_ci_test;' -U postgres' from .travis.yml" />
     <MESSAGE value="Replacing 'postgresql' by 'postgresql_psycopg2'" />
@@ -451,7 +459,8 @@
     <MESSAGE value="Modifiying test_if_view_favorites_is_displaying_when_logged_in_with_no_favorites_yet_for_this_user" />
     <MESSAGE value="Modifiying test_if_view_favorites_is_displaying_previous_favorites_when_logged_in" />
     <MESSAGE value="Adding product category entry in test_if_view_search_results_is_displaying_results_when_search_find_a_result" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding product category entry in test_if_view_search_results_is_displaying_results_when_search_find_a_result" />
+    <MESSAGE value="Modifying product category id in test_if_view_search_results_is_displaying_results_when_search_find_a_result" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifying product category id in test_if_view_search_results_is_displaying_results_when_search_find_a_result" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="99" width="1720" height="848" key="DiffContextDialog" timestamp="1610555176087">
@@ -474,9 +483,9 @@
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="464" y="158" key="SettingsEditor/0.0.1920.1048@0.0.1920.1048" timestamp="1609423367358" />
-    <state x="396" y="463" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1610705213651">
+    <state x="396" y="463" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1610705450356">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="396" y="463" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1610705213651" />
+    <state x="396" y="463" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1610705450356" />
   </component>
 </project>
