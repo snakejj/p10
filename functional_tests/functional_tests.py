@@ -5,6 +5,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 
+firefox_options = webdriver.FirefoxOptions()
+firefox_options.headless = True
+firefox_options.add_argument('--window-size=1920x1080')
+
 
 class FunctionalTests(StaticLiveServerTestCase):
 

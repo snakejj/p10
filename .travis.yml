@@ -1,27 +1,28 @@
 language: python
 python:
   - '3.8.5'
+
 services:
   - postgresql
 
 addons:
   firefox: latest
-  apt:
-    packages:
-      firefox-geckodriver
 
-before_script:
-  - pip install -r requirements.txt
-
-
-env:
-  - DJANGO_SETTINGS_MODULE="purbeurre.settings.travis"
-  - MOZ_HEADLESS=1
-script:
-  - pytest functional_tests/functional_tests.py
-  - pytest -v
-
-# safelist
 branches:
   only:
     - staging
+
+install:
+  - pip install tchappui-webdrivers
+
+before_script:
+  - pip install -r requirements.txt
+  - install-webdrivers --path /usr/local/bin/
+
+env:
+  global:
+    - DJANGO_SETTINGS_MODULE="purbeurre.settings.travis"
+
+script:
+  - pytest functional_tests/functional_tests.py
+  - pytest -v
