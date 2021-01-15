@@ -75,7 +75,7 @@ class TestFavoritesView:
             product_id=objproduct_initial.code,
             substitute_id=objproduct_substitute.code)
 
-        user = mixer.blend('auth.User', user_id=2)
+        user = mixer.blend('auth.User', id=2)
         post = {
             "user_id": user.id,
             "product": objproduct_initial.code,
